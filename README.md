@@ -34,7 +34,7 @@ squale --fit 800x600 trav/tracteurs/*
 Squale filters out non images and files whose name looks like its own output.
 
 
-Generated images are named accoding to the specified fitting rectangle.
+Generated images are named according to the specified fitting rectangle.
 
 
 For example, assuming you have those files:
@@ -50,7 +50,7 @@ List of arguments is available on `squale --help`
 
 ## Output images
 
-Images are scaled up or down with the Lanczos (with window 3) sampling algorithm which isn't terribly fast but gives excellent results.
+Images are scaled up or down with the Lanczos sampling algorithm (window 3) which isn't terribly fast but gives excellent results.
 
 Scaled PNG, ICO, BMP images are saved as PNG.
 
