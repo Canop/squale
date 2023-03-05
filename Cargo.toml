@@ -1,9 +1,9 @@
 [package]
 name = "squale"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["dystroy <denys.seguret@gmail.com>"]
-repository = "https://github.com/Canop/downscale"
+repository = "https://github.com/Canop/squale"
 description = "a tiny image scaling utility"
 keywords = ["image", "resize", "downscale", "upscale"]
 license = "MIT"
