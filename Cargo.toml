@@ -1,16 +1,16 @@
 [package]
 name = "squale"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["dystroy <denys.seguret@gmail.com>"]
 repository = "https://github.com/Canop/downscale"
-description = "a tiny image downscaler"
-keywords = ["image", "resize", "downscale"]
+description = "a tiny image scaling utility"
+keywords = ["image", "resize", "downscale", "upscale"]
 license = "MIT"
 categories = ["command-line-utilities"]
 readme = "README.md"
 rust-version = "1.67"
-exclude = ["website", "downscale*.zip"]
+exclude = ["website", "squale*.zip"]
 
 [dependencies]
 anyhow = "1.0.68"

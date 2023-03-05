@@ -14,12 +14,16 @@ pub struct Args {
     #[arg(short, long)]
     pub fit: Rect,
 
+    /// Verbosity of the traces printed during execution
     #[arg(short, long, value_enum, default_value="normal")]
     pub verb: Verbosity,
 
+    /// Quality, between 0 an 100, of images when exported
+    /// as JPEG
     #[arg(long, default_value_t=85)]
     pub jpeg_quality: u8,
 
+    /// Files to resize
     pub source: Vec<PathBuf>,
 }
 
