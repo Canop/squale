@@ -31,14 +31,21 @@ squale --fit 800x600 trav/tracteurs/*
 Squale filters out non images and files whose name looks like its own output.
 
 
-Generated images are named according to the specified fitting rectangle.
+Generated images are named according to the specified fitting rectangle (real image dimensions may be smaller, as proportions are kept).
 
 
 For example, assuming you have those files:
 
 ![tree-before](doc/tree-before.png)
 
-After running the command above, you'll get
+Run
+
+
+```bash
+squale --fit 800x600 trav/tracteurs/*
+```
+
+Then, you'll get
 
 ![tree-after](doc/tree-after.png)
 
@@ -49,7 +56,7 @@ List of arguments is available on `squale --help`
 
 Images are scaled up or down with the Lanczos sampling algorithm (window 3) which isn't terribly fast but gives excellent results.
 
-Scaled PNG, ICO, BMP images are saved as PNG.
+Scaled PNG, ICO, and BMP images are saved as PNG.
 
 Other kinds of images are saved as JPEG. Default quality is 85 but it can be changed with the `--jpeg-quality` parameter.
 
